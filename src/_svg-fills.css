@@ -1,8 +1,4 @@
-/*
-
-  SVG FILLS
-
-*/
+/* SVG Fills */
 
 .fill-black { fill: var(--black); }
 .fill-near-black { fill: var(--near-black); }

@@ -7,20 +7,20 @@
 .ttc { text-transform: capitalize; }
 .ttl { text-transform: lowercase; }
 .ttn { text-transform: none; }
-.ttu { text-transform: uppercase; }
+.ttu,
 .caps {
   text-transform: uppercase;
-  letter-spacing: .15em;
+  letter-spacing: .2em;
 }
 
 @media (--breakpoint-not-small) {
   .ttc-ns { text-transform: capitalize; }
   .ttl-ns { text-transform: lowercase; }
   .ttn-ns { text-transform: none; }
-  .ttu-ns { text-transform: uppercase; }
+  .ttu-ns,
   .caps-ns {
     text-transform: uppercase;
-    letter-spacing: .15em;
+    letter-spacing: .2em;
   }
 }
 
@@ -28,10 +28,10 @@
   .ttc-m { text-transform: capitalize; }
   .ttl-m { text-transform: lowercase; }
   .ttn-m { text-transform: none; }
-  .ttu-m { text-transform: uppercase; }
+  .ttu-m,
   .caps-m {
     text-transform: uppercase;
-    letter-spacing: .15em;
+    letter-spacing: .2em;
   }
 }
 
@@ -39,9 +39,9 @@
   .ttc-l { text-transform: capitalize; }
   .ttl-l { text-transform: lowercase; }
   .ttn-l { text-transform: none; }
-  .ttu-l { text-transform: uppercase; }
+  .ttu-l,
   .caps-l {
     text-transform: uppercase;
-    letter-spacing: .15em;
+    letter-spacing: .2em;
   }
 }

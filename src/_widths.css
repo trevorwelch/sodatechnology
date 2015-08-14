@@ -24,8 +24,6 @@
      -80  = literal value 80%
      -100 = literal value 100%
 
-     -auto  = string value auto
-
 
    Media Query Extensions:
      -ns = not-small
@@ -54,7 +52,7 @@
 .w-80 { width:  80%; }
 .w-100 { width: 100%; }
 
-.w-auto { width: auto; }
+.w-at { width: auto; }
 
 @media (--breakpoint-not-small) {
   .w1-ns {  width: 1rem; }
@@ -73,7 +71,7 @@
   .w-75-ns { width:  75%; }
   .w-80-ns { width:  80%; }
   .w-100-ns { width: 100%; }
-  .w-auto-ns { width: auto; }
+  .w-at-ns { width: auto; }
 }
 
 @media (--breakpoint-medium) {
@@ -93,7 +91,7 @@
   .w-75-m { width:  75%; }
   .w-80-m { width:  80%; }
   .w-100-m { width: 100%; }
-  .w-auto-m {    width: auto; }
+  .w-at-m {    width: auto; }
 }
 
 @media (--breakpoint-large) {
@@ -113,5 +111,5 @@
   .w-75-l {    width:  75%; }
   .w-80-l {    width:  80%; }
   .w-100-l {   width: 100%; }
-  .w-auto-l {    width: auto; }
+  .w-at-l {    width: auto; }
 }

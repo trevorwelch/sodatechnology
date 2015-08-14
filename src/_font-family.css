@@ -1,6 +1,6 @@
 /*
 
-   FONT FAMILY GROUPS
+   Font Family Groups
 
 */
 
@@ -12,7 +12,7 @@
 }
 
 .serif {
-  font-family: times, TimesNewRoman, "Times New Roman",
+  font-family: TimesNewRoman, "Times New Roman", times,
                georgia,
                serif;
 }
@@ -25,24 +25,17 @@ code, .code {
                monospace;
 }
 
-.helvetica {
-  font-family:  helvetica, 'helvetica neue',
-                arial,
-                sans-serif;
-}
-
-.bodoni {
-  font-family: "Bodoni MT",
+.serif-bodini {
+  font-family: "Bodini MT",
                 Didot,
                "Didot LT STD",
                "Hoefler Text",
                 Garamond,
-                Times,
                "Times New Roman",
                 serif;
 }
 
-.calisto {
+.serif-calisto {
   font-family: "Calisto MT",
                "Bookman Old Style", Bookman,
                "Goudy Old Style",
@@ -53,7 +46,7 @@ code, .code {
                 serif;
 }
 
-.garamond {
+.serif-garamond {
   font-family: Garamond,
                Baskerville, "Baskerville Old Face",
               "Hoefler Text",
@@ -61,8 +54,8 @@ code, .code {
                serif;
 }
 
-.times {
-  font-family: Times, TimesNewRoman, "Times New Roman",
+.serif-times {
+  font-family: TimesNewRoman, "Times New Roman", Times,
                Baskerville,
                Georgia,
                serif;
